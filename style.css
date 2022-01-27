@@ -1,42 +1,76 @@
 body  {
     background-color: black;
+    margin: auto;
+    width: 20%;
+    height: auto;
+    
+
+    font-family: 'Delius', cursive;
+    
+    
+
 }
-.img {
-width: 20%;
-border: 5px; white;
+img {
+max-width: 70px;
+height: auto;
+
+
 }
 .postcard-header  {
     display:flex;
     flex-direction: row;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 10px;
+    
+    
 }
 
 
 .postcard-content {
     display: flex;
     flex-direction: row;
-    justify-content: center;
-    align-items: center;
+    justify-content: space-between;
+    align-items: baseline;
+    padding-left: 10px;
+    padding-right: 10px;
+   
 }
 
 
-    .input {
+    input {
         display: flex;
         flex-direction: column;
         justify-content: center;
         align-items: center;
+        border: none;
+        border-bottom: 2px solid grey;
+        
+        font-size: 100%;
+        
+
 
     }
 .postcard-button {
+    color: black;
     display: flex;
     flex-direction: row;
     justify-content: center;
     align-items: center;
+    padding-left: 10px;
+    padding-bottom: 40px;
+    
+    
 }
-
+button{
+    background-color: rgba(128, 128, 128, 0.671);
+    border: none;
+    padding: 5px 5px 5px 5px;
+}
 
 div {
     background-color: white;
+   }
    
-}
