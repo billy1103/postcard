@@ -1,11 +1,15 @@
 body  {
     background-color: black;
-    margin: auto;
-    width: 20%;
+    margin-top: 20%;
+    margin-bottom: 20%;
+    margin-left: 30%;
+    margin-right: 30%;
+    padding: auto;
+    width: auto;
     height: auto;
-    
-
     font-family: 'Delius', cursive;
+
+    
     
     
 
@@ -14,8 +18,9 @@ img {
 max-width: 70px;
 height: auto;
 
-
 }
+
+
 .postcard-header  {
     display:flex;
     flex-direction: row;
@@ -32,22 +37,22 @@ height: auto;
 .postcard-content {
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
+    justify-content: flex-start;
     align-items: baseline;
     padding-left: 10px;
     padding-right: 10px;
-   
+   margin-right: 5%;
 }
 
 
     input {
         display: flex;
         flex-direction: column;
-        justify-content: center;
+        justify-content: space-evenly;
         align-items: center;
         border: none;
         border-bottom: 2px solid grey;
-        
+        font-family: 'Delius', cursive;
         font-size: 100%;
         
 
@@ -68,6 +73,7 @@ button{
     background-color: rgba(128, 128, 128, 0.671);
     border: none;
     padding: 5px 5px 5px 5px;
+    font-family: 'Delius', cursive;
 }
 
 div {
