@@ -1,27 +1,19 @@
-body  {
+body {
     background-color: black;
     margin-top: 20%;
     margin-bottom: 20%;
-    margin-left: 30%;
-    margin-right: 30%;
+    margin-left: 40%;
+    margin-right: 40%;
     padding: auto;
     width: auto;
     height: auto;
     font-family: 'Delius', cursive;
-
-    
-    
-    
-
 }
 img {
 max-width: 70px;
 height: auto;
-
 }
-
-
-.postcard-header  {
+.postcard-header {
     display:flex;
     flex-direction: row;
     justify-content: space-between;
@@ -29,11 +21,7 @@ height: auto;
     padding-left: 10px;
     padding-right: 10px;
     padding-top: 10px;
-    
-    
 }
-
-
 .postcard-content {
     display: flex;
     flex-direction: row;
@@ -43,9 +31,7 @@ height: auto;
     padding-right: 10px;
    margin-right: 5%;
 }
-
-
-    input {
+input {
         display: flex;
         flex-direction: column;
         justify-content: space-evenly;
@@ -54,10 +40,7 @@ height: auto;
         border-bottom: 2px solid grey;
         font-family: 'Delius', cursive;
         font-size: 100%;
-        
-
-
-    }
+}
 .postcard-button {
     color: black;
     display: flex;
@@ -65,18 +48,15 @@ height: auto;
     justify-content: center;
     align-items: center;
     padding-left: 10px;
-    padding-bottom: 40px;
-    
-    
+    padding-bottom: 40px; 
 }
-button{
+button {
     background-color: rgba(128, 128, 128, 0.671);
     border: none;
     padding: 5px 5px 5px 5px;
     font-family: 'Delius', cursive;
 }
-
 div {
     background-color: white;
-   }
+}
    
